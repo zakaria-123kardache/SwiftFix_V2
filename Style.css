@@ -88,3 +88,213 @@
 
 
 }
+.navbar .nav button{
+    background-color:#1090cb ;
+    padding: 12px 12px;
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: normal;
+    margin-left: 40px;
+    border-radius: 8px;
+
+
+}
+.eins{
+    display: grid;
+    height: 300px;
+    grid-template-columns:1fr 1fr;
+    background-color: #F4F4F4;
+}
+.eins img{
+    width:300px ;
+    height:300px ;
+    justify-self: center;
+}
+.eins h1 {
+    justify-self: center;
+    align-self: center;
+    color: #1090CB;
+    font-size: 40px;
+ 
+
+}
+.zwei{
+    display: grid;
+    grid-template-columns:1fr;  
+  
+
+}
+.zwei img{
+    width:1400px ;
+    height:400px ;
+    justify-self: start;
+    margin-top: 30px;
+    margin-left: 60px;
+    
+
+}
+
+.drei h1{
+    color: #1090cb; 
+    text-align: start;
+    font-size: 40px;
+    
+
+
+}
+.drei h3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #1090cb; 
+    text-align: start;
+    font-size: 20px;
+   
+
+}
+.drei button{
+    background-color:#1090cb ;
+    padding: 12px 12px;
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: normal;
+    margin-left: 40px;
+    border-radius: 8px;
+}
+.drei .ma #ma{
+    width: 500px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: start;
+
+    /*start services*/
+}
+.na{
+    padding: 15px 20%;
+    padding-bottom:100px ;
+}
+.na .nb{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr))  ;
+    gap: 15px;
+
+}
+.na .nb .nc img{
+    
+    width: 60px; height: 50px;
+    display: grid;
+    justify-items: start;
+    
+}
+.na .nb .nc{
+    box-shadow: 0 5px 5px #010101 ;
+    border-radius: 5px;
+    background-color:#1090cb ;
+    text-align: center;
+    padding: 30px 20px;
+}
+.na .nb .nc h3{
+    text-align: start;
+   color: aliceblue;
+   font-size: 25px;
+   padding:10px 0;
+}
+.na .nb .nc p{
+    text-align: start;
+    color: rgba(240, 248, 255, 0.645);
+    font-size: 18px;
+    line-height: 1.2;
+ }
+ .na .nb .nc .btn{
+
+    margin-top: 10px 25px;
+    display: grid;
+    color: #F4F4F4;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 25px;
+ }
+  /*end services*/
+   /* /*start footer*/
+
+ footer {
+    background-color:#F4F4F4;
+    color: #333;
+    padding: 20px 0;
+    text-align: start;
+}
+
+.footer-container {
+    
+    display: grid;
+    grid-auto-flow: column;     
+    grid-auto-columns: max-content;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: w;
+    padding: 20px 0;
+}
+
+.footer-container div {
+    width: 45%;
+    margin: 10px;
+}
+
+.footer-container h3 {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.footer-container a {
+    color: #333;
+    text-decoration: none;
+}
+
+.werden{
+    text-align: center;
+    font-size:medium ;
+    color: #000;
+    margin-top: 20px 20px 20px 20px;
+    margin-bottom: 20px 20px;
+
+}
+/*end footer*/
+.einsa{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    background-color: #E8F4FA;
+   
+}
+
+.einsa img{
+   
+    justify-self: center;
+
+}
+.einsa .einen{
+    display:grid ;
+    align-items: stretch;
+    width: 500px;
+    text-align: start;
+    
+}
+.einsa .einen h2{
+    display:grid ;
+    width: 100%;
+    align-self:end ;
+    
+     
+   text-align: start;
+    justify-self: center;
+}
+.einsa .einen p{
+    
+    display:grid;
+    text-align: start;
+    width: 100%;
+    align-self:start;
+   
+}
+ 
