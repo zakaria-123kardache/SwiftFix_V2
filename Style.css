@@ -17,6 +17,7 @@
 }
 
 .header-nav>ul {
+    align-items: center;
     list-style: none;
     display: grid;
     grid-auto-flow: column;
@@ -31,7 +32,7 @@
     font-weight: bold;
 }
 
-.navbar .nav button {
+.header .header-nav button {
     background-color: #1090cb;
     padding: 12px 12px;
     text-decoration: none;
@@ -117,17 +118,22 @@
 
 /*end about*/
 /*starrt contact*/
-
-.contact-section {
+.contact-banner {
     display: grid;
-    grid-template-rows: auto auto;
-    gap: 20px;
-    padding: 40px;
+    height: 300px;
+    grid-template-columns: 1fr 1fr;
     background-color: #F4F4F4;
 }
 
+.contact-banner img {
+    height: 300px;
+    justify-self: center;
+}
+
+
 .contact-section h1 {
     justify-self: center;
+    align-self: center;
     color: #1090CB;
     font-size: 40px;
 }
@@ -139,11 +145,33 @@
     margin-bottom: 20px;
 }
 
+.map {
+    text-align: center;
+    margin: 40px;
+}
+
+.map img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
 .bottom-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 40px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #1090cb;
+}
+
+.contact-form label {
+    padding-bottom: 10px;
+    color: #1090cb;
+
 }
 
 .contact-form,
@@ -155,6 +183,7 @@
 }
 
 .input-container {
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -170,13 +199,39 @@
 }
 
 .contact-form button {
-    padding: 10px 20px;
-    background-color: #1a2db4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    
+    background-color: #1090cb;
+    font-size: medium;
+    padding: 12px 12px;
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: normal;
+    width: 20%;
+    border-radius: 8px;
+
+
 }
+
+.bottom-section .contact-info {
+    background-color: #1090cb;
+    color: white;
+    display: grid;
+    grid-template-rows: repeat('auto-fit', minmax(100px, 1fr));
+    text-align: start;
+
+
+}
+
+.bottom-section .contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.size-6 {
+    width: 40px;
+    height: 60px;
+}
+
 
 /*end contact*/
 /*start services*/
@@ -194,13 +249,11 @@
     justify-self: center;
 }
 
-.contact-section h1 {
+.service-service h1 {
     justify-self: center;
     align-self: center;
     color: #1090CB;
-    font-size: 40px;
-
-
+    font-size: 40px
 }
 
 .service {
@@ -273,6 +326,7 @@ footer {
     color: #333;
     padding: 20px 0;
     text-align: start;
+    margin-top: 20px;
 }
 
 .footer-container {
