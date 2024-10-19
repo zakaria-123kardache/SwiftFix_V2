@@ -10,11 +10,11 @@
 
 <body>
     <header>
-        <div class="navbar">
+        <div class="header">
 
 
             <img style="width: 60px; height: 50px; margin-left: 50px;" src="./img/logo-ZAKE.png" alt="img logo">
-            <nav class="nav">
+            <nav class="header-nav">
                 <ul>
                     <li><a href="Index.html">Home</a></li>
                     <li><a href="About.html">About Us</a></li>
@@ -29,34 +29,48 @@
 
         </div>
     </header>
-    <section class="eins">
 
+    <section class="contact-section">
         <h1>Contact Us</h1>
-        <img src="./img/Sectionimage1.jpg" alt="childe with chess caracter">
-    </section>
-    <section class="zwei">
-        <img src="./img/mapscontact.jpg" alt="maps">
-    </section>
+        <img src="./img/Sectionimage1.jpg" alt="Map Image">
 
-    <section class="drei">
-        <h1>Send Us A Message</h1>
-        <p>das ist kein paragraph aber ich kann meinem unter kinft halilili</p>
-        <div>
-            <div class="ma" id="ma">
-                <h3>Name</h3>
-                <input type="text" name="name" placeholder="Votre nom">
-            </div>
-            <div class="mb" id="mb">
-                <h3>Email</h3>
-                <input type="email" name="email" placeholder="Votre email">
-            </div>
-            <div class="mc" id="mc">
-                <h3>Message</h3>
-                <textarea name="message" rows="5" placeholder="Votre message"></textarea>
+        <!-- Map on Top -->
+        <div class="map">
+            <img src="./img/mapscontact.jpg" alt="Map Image">
+        </div>
+
+        <!-- Form and Contact Info Side by Side -->
+        <div class="bottom-section">
+            <div class="contact-form">
+                <h2>Send Us A Message</h2>
+                <form action="#">
+                    <div class="input-container">
+                        <div class="form-input">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-input">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="textarea-container">
+                        <div class="form-container">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Message" ></textarea>
+                        </div>
+
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
             </div>
 
-        <div>
-            <button type="submit">Senden</button>
+            <div class="contact-info">
+                <h2>Email</h2>
+                <p><strong>Phone:</strong> +123456789</p>
+                <p><strong>Email:</strong> kardash.com@gmail.com</p>
+                <p><strong>Address:</strong> karn mann n goarsben, 12345 Marokko</p>
+            </div>
         </div>
     </section>
   
