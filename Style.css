@@ -253,7 +253,7 @@
     justify-self: center;
     align-self: center;
     color: #1090CB;
-    font-size: 40px
+    font-size: 40px;
 }
 
 .service {
@@ -261,23 +261,20 @@
     padding-bottom: 100px;
 }
 
-.service .service {
+
+.service .content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 15px;
-
 }
 
-.service .service .cardre img {
-
-    width: 60px;
-    height: 50px;
-    display: grid;
-    justify-items: start;
-
+.service .cardre img {
+    width: 100px; 
+    height: 100px;
+    justify-self: center;
 }
 
-.service .service .cardre {
+.service .cardre {
     box-shadow: 0 5px 5px #010101;
     border-radius: 5px;
     background-color: #1090cb;
@@ -285,28 +282,30 @@
     padding: 30px 20px;
 }
 
-.service .service .cardre h3 {
+.service .cardre h3 {
     text-align: start;
     color: aliceblue;
     font-size: 25px;
     padding: 10px 0;
 }
 
-.service .service .cardre p {
+.service .cardre p {
     text-align: start;
     color: rgba(240, 248, 255, 0.645);
     font-size: 18px;
     line-height: 1.2;
 }
 
-.service .service .cardre .btn {
+.service .cardre .btn {
+    display: block;
+    background-color: #ffffff;
+    padding: 12px 12px;
+    text-decoration: none;
+    letter-spacing: normal;
+    border-radius: 8px;
+    margin-top: 15px;
+    color: #000;
 
-    margin-top: 10px 25px;
-    display: grid;
-    color: #F4F4F4;
-    font-size: 18px;
-    border-radius: 5px;
-    padding: 10px 25px;
 }
 
 .werden {
